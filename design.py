@@ -22,7 +22,7 @@ g_m = 2e-3
 R_ea_o = 10e+6
 G_comp = 0.142
 A_ea_vol = g_m * R_ea_o
-f_p2, f_z3 = 80, 4000
+f_p2, f_z3 = 90, 6000
 
 R_c1 = f_p2 / (f_z3 - f_p2) * R_ea_o
 C_c1 = 1 / (R_c1 * 2 * np.pi * f_z3)
